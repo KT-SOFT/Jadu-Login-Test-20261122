@@ -188,6 +188,7 @@
       }
       emit({ message: "\uC720\uD29C\uBE0C \uBAA9\uB85D \uC5F0\uACB0\uC744 \uD655\uC778\uD558\uACE0 \uC788\uC5B4\uC694." });
     } catch (error) {
+      window.jaduTestAuthError={code:/^auth\/[a-z0-9-]+$/.test(error?.code||'')?error.code:'',name:error?.name||'',originalName:error?.customData?.originalError?.name||'',originalCode:/^[A-Z0-9_-]+$/.test(error?.customData?.originalError?.code||'')?error.customData.originalError.code:''};
       emit({ message: errorMessage(error) });
       throw new Error(status.message);
     } finally {
