@@ -1,0 +1,26 @@
+{
+  "id": "/Jadu-Login-Test-20261122/recommendations-20261124/Tesla/",
+  "name": "자두 Tesla 추천 시험",
+  "short_name": "자두 추천 시험",
+  "lang": "ko",
+  "description": "자두와 함께 듣는 나의 YouTube 재생목록",
+  "start_url": "./?v=1123tsr1",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101a14",
+  "theme_color": "#101a14",
+  "icons": [
+    {
+      "src": "./assets/jadu-latest-256-1120.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/jadu-latest-512-1120.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
