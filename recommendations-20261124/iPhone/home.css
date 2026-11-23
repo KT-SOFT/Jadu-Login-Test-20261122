@@ -795,3 +795,6 @@ body.video-open:not(.np-video-active) #h-video-panel.is-video-playing #h-video-s
   body #h-video-panel .video-thumb img{width:100%;height:100%;object-fit:cover}
   body #h-video-panel .video-tile-title{text-align:left;line-height:1.35}
 }
+
+#h-video-results .video-results-empty{grid-column:1/-1;color:#afc7b6;font-size:14px;line-height:1.6;margin:8px 0}
+#h-video-results .video-results-empty p{margin:0 0 10px}

@@ -855,3 +855,6 @@ body.video-open:not(.np-video-active) #h-video-stage .video-stage{
   height:100%!important;max-height:100%;width:100%;aspect-ratio:auto!important;margin:0!important;
 }
 body.np-video-active #h-video-stage{display:block!important}
+
+#h-video-results .video-results-empty{grid-column:1/-1;color:#afc7b6;font-size:14px;line-height:1.6;margin:8px 0}
+#h-video-results .video-results-empty p{margin:0 0 10px}
