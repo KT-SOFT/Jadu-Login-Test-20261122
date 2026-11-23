@@ -1,0 +1,26 @@
+{
+  "id": "/Jadu-Login-Test-20261122/github-redirect/iPhone/",
+  "name": "자두 GitHub 로그인 시험",
+  "short_name": "자두 로그인 시험",
+  "lang": "ko",
+  "description": "자두와 함께 듣는 나의 YouTube 재생목록",
+  "start_url": "./?v=1123ga1",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101a14",
+  "theme_color": "#101a14",
+  "icons": [
+    {
+      "src": "./assets/jadu-home-192-1116ic1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/jadu-home-512-1116ic1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
