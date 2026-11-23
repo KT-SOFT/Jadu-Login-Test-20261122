@@ -4,7 +4,7 @@
   "short_name": "자두 로그인 시험",
   "lang": "ko",
   "description": "자두와 함께 듣는 나의 YouTube 재생목록",
-  "start_url": "./?v=1123ga2",
+  "start_url": "./?v=1123ga3",
   "scope": "./",
   "display": "standalone",
   "background_color": "#101a14",
